@@ -3,7 +3,11 @@ nav{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
-
+.logo{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
 .g1{
     grid-column-start: 1;
     grid-column-end: 2;
