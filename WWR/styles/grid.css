@@ -24,11 +24,14 @@ nav{
     grid-column-end: 5;
 }
 
+
+.home_grid img{
+    width: 50%;
+    height: 50%;
+}
 .home_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: stretch;
 }
 .rivers_card{
     grid-column-start: 1;
@@ -43,17 +46,30 @@ nav{
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.mountains_card{
+.mountains{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+.mountains img{
+    width: 100%;
+    height: 100%;
+    
+}
+.msg{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+}
 
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 275px;
     justify-content: left;
+    align-items: center;
 }
 
 .copy{
@@ -77,5 +93,9 @@ footer{
     width: 50px;
     height: 50px;
     padding: 5%;
-
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: 5%;
 }
