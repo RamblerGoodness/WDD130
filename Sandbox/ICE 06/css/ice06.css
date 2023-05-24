@@ -1,0 +1,42 @@
+#grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    justify-content: stretch;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.cherry_pic{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.background{
+    background-color: #444;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    font-size: 100px;
+}
+.cherry{
+    align-self: end;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+p{
+    text-align: center;
+    color: red;
+    font-size: 70px;
+}
