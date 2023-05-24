@@ -1,0 +1,81 @@
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.g1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.g2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.g3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.g4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.home_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: stretch;
+}
+.rivers_card{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.rapids_card{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.mountains_card{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: left;
+}
+
+.copy{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.plan{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.contact{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.social{
+    justify-self: stretch;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    padding: 5%;
+
+}

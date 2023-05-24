@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="styles/WWR-style.css" />
+    <link type="text/css" rel="stylesheet" href="styles/grid.css" />
     <title>DryOar</title>
 </head>
 <body>
@@ -12,10 +12,10 @@
     <header>
         <a href="index.html" id = "logo_link"> <img class="logo" src="images/logo.png" alt="DryOarLogo"> </a>
         <nav>
-            <a href="index.html"> Home </href>
-            <a href="#"> Page 2 </href>
-            <a href="WWR-plan.html" target="_blank"> Site Plan </href>
-            <a href="contactus.html" target="_blank"> Contact </href>
+            <a href="index.html" class="g1"> Home </href>
+            <a href="#" class="g2"> Page 2 </href>
+            <a href="WWR-plan.html" target="_blank" class="g3"> Site Plan </href>
+            <a href="contactus.html" target="_blank" class="g4"> Contact </href>
         </nav>
     </header>
     <div id="hero">
@@ -30,6 +30,7 @@
         </section>
     </div>
     <main class="home_grid">
+        <div id="background"></div>
         <section class="rivers-card">
             <img class="card-img" src="images/camping.jpg" alt="tent in mountain">
             <img class="icon" src="images/oars.png" alt="oars icon">
@@ -40,7 +41,7 @@
             <img class="icon" src="images/oars.png" alt="oars icon">
             <h2>Rapids</h2>
         </section>
-        <div id="background"></div>
+        
         <img class="mountains" src="images/mountains.jpg" alt="Misty Mountains">
         <section class="msg">
             <h2>More Than Just A Thrill</h2>
@@ -49,9 +50,9 @@
         </section>
     </main>
     <footer>
-        <p>DryOar &copy; 2023 -- Thomas Andersen</p>
-        <p><a href="WWR-plan.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p>
+        <p class="copy">DryOar &copy; 2023 -- Thomas Andersen</p>
+        <p><a href="WWR-plan.html" class="plan">Site Plan</a></p>
+        <p><a href="contactus.html" class="contact">Contact Us</a></p>
         <div class="social">
             <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
             <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
