@@ -1,4 +1,51 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Moonrocks&display=swap');
+
+#logo_link
+{
+    padding-top: 5px;
+}
+
+nav a
+{
+    padding: 35px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Rubik Moonrocks";
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+}
+
+p
+{
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.book, .join{
+
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg{
+    line-height: 1.5em;
+}
+
+
+
 #content
 {
     max-width: 1600px;
@@ -9,6 +56,9 @@ body
 {
     background-color: #023047;
     color: #FFB703;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header
@@ -34,7 +84,7 @@ nav a:hover
 
 .book
 {
-    background-color: #023047;
+    background-color: #93748A;
     text-decoration: none;
 
 }
@@ -62,6 +112,7 @@ nav a:hover
     text-align: center;
     color: #FFB703
 }
+
 #hero-img
 {
     width: 100%;
@@ -70,9 +121,11 @@ nav a:hover
 .msg   
 {
     background-color: #023047;
+    padding: 35px;
 }
 .button-box{
     text-align: center;
+    margin-bottom: 15px;
 }
 
 main section
@@ -89,6 +142,12 @@ footer
 {
     background-color: #023047;
     color: #FFB703;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img
+{
+    padding-top: 15px;
 }
 footer a
 {
@@ -104,8 +163,24 @@ footer p a:hover
 .icon
 {
     width: 80px;
+    padding-top: 10px;
 }
 .logo
 {
     width: 50px;
+}
+
+.rivers-card .camping-card .rapids-card
+{
+    margin: 200px 0;
+}
+
+.card-img
+{
+    border: 10px solid #023047;
+}
+
+main section img
+{
+    box-sizing: border-box;
 }
