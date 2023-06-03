@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="styles/WWR-style.css" >
     <title>DryOar</title>
 </head>
+
 <body>
     <div id="content">
         <header>
@@ -19,8 +21,9 @@
             </nav>
         </header>
         <div id="hero">
-            <img id="hero_img" src="images/hero.png" alt="People Rafting">
-    
+            <div id="hero_box">
+                <img id="hero_img" src="images/hero.png" alt="People Rafting">
+            </div>
             <section id="hero_msg" >
                 <h1 id="home_title">Have an Adventure</h1>
                 <h4>Make Memories with DryOar</h4>
@@ -29,33 +32,38 @@
                 </div>
             </section>
         </div>
-        <div id="background">
-            <main class="home_grid">
         
-                <section class="rivers-card">
-                    <h2>Camping</h2>
-                    <img class="card-img" src="images/camping.jpg" alt="tent in mountain">
-                    <img class="icon" src="images/oars.png" alt="oars icon">
-            
-                </section>
+        <main class="home_grid">
         
-                <section class="rapids-card">
-                    <h2>Rapids</h2>
-                    <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-                    <img class="icon" src="images/oars.png" alt="oars icon">            
-                </section>
+            <section class="rivers-card">
+                <h2>Rivers</h2>
+                <img class="card-img" src="images/rivers.jpg" alt="tent in mountain">
+                <img class="icon river_icon" src="images/river_icon.png" alt="oars icon">
+            </section>
+        
+            <section class="rapids-card">
+                <h2>Rapids</h2>
+                <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+                <img class="icon oars" src="images/oars.png" alt="oars icon">                            </section>
 
-                <section class="mountains">
-                    <img src="images/mountains.jpg" alt="Misty Mountains">
-                </section>
+            <section class="camping-card">
+                <h2>Camping</h2>
+                <img class="card-img" src="images/camping.jpg" alt="tent in mountain">
+                <img class="icon camping_icon" src="images/fire_icon.png" alt="oars icon">
+            </section>
+                
+            <div id="background"></div>
+
+            <img class="mountains" src="images/mountains.jpg" alt="Misty Mountains">
         
-                <section class="msg">
-                    <h2>More Than Just A Thrill</h2>
-                    <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-                    <a class='join' href="rivers.html">Join Us</a>
-                </section>
-            </main>
-        </div>
+            <section class="msg">
+                <h2>More Than Just A Thrill</h2>
+                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+                <a class='join' href="rivers.html">Join Us</a>
+            </section>
+
+        </main>
+        
     
         <footer>
             <p class="copy">DryOar &copy; 2023 -- Thomas Andersen</p>
