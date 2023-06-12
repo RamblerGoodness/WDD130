@@ -1,0 +1,81 @@
+body
+{
+    max-width: 390px;
+    max-height: 844px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    border-radius: 10%;
+
+}
+.box
+{
+    width: auto;
+    height: auto;
+    margin: 0;
+    grid-row: 1/2;
+    
+}
+h4
+{
+    color: blue;
+}
+h1{
+
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+.box img
+{
+    width: 390px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+}
+.container
+{
+    background-color: white;
+    margin: 0 auto;
+    width: 720px;
+    height: auto;
+    padding: 0px;
+    grid-row: 2/3;
+
+}
+footer
+{
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 0;
+    grid-row: 3/4;
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    
+}
+
+.READ
+{
+    grid-column: 1/2;
+}
+
+.VIEWS
+{
+    grid-column: 2/3;
+}
+
+.COMMENTS
+{
+    grid-column: 3/4;
+}
